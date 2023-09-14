@@ -1,0 +1,58 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.blog {
+    border: 5px solid rgb(28, 247, 181);
+    background-color: rgb(158, 247, 217);
+    border-radius: 50px;
+    padding: 15px;
+    margin: 20px;
+    width: 500px;
+    text-align: justify;
+}
+
+.blog-header {
+    text-align: center;
+    color: brown;
+}
+
+.blog-paragraph {
+    color: rgb(2, 27, 48);
+}
+
+.parent-div {
+    background-image: url('../Img/testImg.png');
+    border: 5px solid rebeccapurple;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: 98% 3%;
+    background-size: 300px;
+}
+
+.form {
+    margin: 25px;
+    width: 275px;
+    padding: 20px;
+    background-color: rgb(92, 192, 196);
+    border: 3px solid rgb(21, 172, 177);
+    border-radius: 10px;
+    box-shadow: 4px 5px 10px 2px rgb(96, 253, 123);
+    text-align: center;
+}
+
+.form-item {
+    display: block;
+    border: 2px solid mediumseagreen;
+    border-radius: 7px;
+    margin: 10px;
+    font-size: large;
+    color: rgb(0, 21, 36);
+}
+
+#label {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(193, 34, 255);
+}
