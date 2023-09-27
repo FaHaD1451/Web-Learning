@@ -6,8 +6,20 @@
     <title>First HTML</title>
     <link rel="shortcut icon" href="../Img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../Style/style.css">
+    <link rel="stylesheet" href="../Style/table.css">
 </head>
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blogs</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="myTable.html">Table</a></li>
+            </ul>
+        </nav>
+        <h2>This is Navigation Bar</h2>
+    </header>
     <p>Hello Html</p>
     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam quas repellat aperiam quod consectetur <mark>dolorum officiis</mark> sit nemo repellendus neque ullam.<br>
     qui culpa cumque illum molestiae est quae voluptas aliquam <b>asperiores <i>enim</i> natus</b> odio quisquam unde incidunt.<br> <small>Architecto</small> <code><i><b>culpa omnis pariatur</b></i></code> <small>dignissimos</small> iste porro! <del>Reiciendis dolorem</del> impedit inventore <ins>obcaecati</ins> nostrum?
@@ -21,21 +33,30 @@
     <p><b>Table using Table Tag</b></p>
 
     <Table>
-        <tr>
-            <td>Name</td>
-            <td>Country</td>
-            <td>Mail</td>
-        </tr>
-        <tr>
-            <td>Fahad</td>
-            <td>Bangladesh</td>
-            <td>xyz@gmail.com</td>
-        </tr>
-        <tr>
-            <td>Karim</td>
-            <td><strong>Nepal</strong></td>
-            <td>karim@yahoo.com</td>
-        </tr>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Country</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Fahad</td>
+                <td>Bangladesh</td>
+                <td>xyz@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Karim</td>
+                <td><strong>Nepal</strong></td>
+                <td>karim@yahoo.com</td>
+            </tr>
+            <tr>
+                <td>Rahim</td>
+                <td><strong>Bhutan</strong></td>
+                <td>rarim@hotmial.com</td>
+            </tr>
+        </tbody>
     </Table>
 
     <p><b>Order list and Unorder list</b></p>
@@ -145,9 +166,7 @@
     </video>
     
     <br><p><b>Audio Tag</b></p>
-    <audio controls>
-        <source src="../Audio/Alice Merton  No Roots (Lyrics).mp3">
-    </audio>
+    <audio controls src="../Audio/Alice Merton  No Roots (Lyrics).mp3"></audio>
     
     <br><p><b>Youtube Video Tag</b></p>
     
